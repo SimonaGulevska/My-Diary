@@ -11,7 +11,6 @@ import {AuthService} from '../shared/auth-service';
   styleUrl: './diary.component.css'
 })
 export class DiaryComponent implements OnInit, OnDestroy {
-  [x: string]: any;
 
   private authenticationSub: Subscription;
   isAuthenticated = false;
